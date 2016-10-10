@@ -1,0 +1,19 @@
+{
+  "name": "lambda-backup-toggl-to-s3",
+  "version": "1.0.0",
+  "description": "A Node.js script for AWS Lambda to backup Toggl time entries to S3.",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.0.1",
+    "aws-sdk": "^2.6.7",
+    "dateformat": "^1.0.12",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "zip -r lambda-backup-toggl-to-s3 *"
+  },
+  "author": "Markus Müller",
+  "license": "ISC"
+}
